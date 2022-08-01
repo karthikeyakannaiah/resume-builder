@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  margin: 4%;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.window {
+  text-align: center;
+  margin: 2%;
+}
+
+.App > input{
+  margin: 10px;
+  padding: 8px;
+  width: 80%;
+  border-radius: 10px;
+  border: 1px black solid;
+}
+.App > textarea {
+  margin: 10px;
+  padding: 8px;
+  width: 80%;
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+}
+.App > button{
+  margin: 30px;
+  padding: 10px;
+  width: 30%;
+  color: black;
+  background-color: yellow;
+  border: 2px black solid;
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+}
+.App > button:hover {
+  color: antiquewhite;
+  background-color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+}
